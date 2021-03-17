@@ -1,6 +1,6 @@
 <?php
 
-namespace PurpleElastic\Inc;
+namespace Elastic\Inc;
 
 use Elasticsearch\ClientBuilder;
 use PurpleDsHub\Inc\Interfaces\Hooks_Interface;

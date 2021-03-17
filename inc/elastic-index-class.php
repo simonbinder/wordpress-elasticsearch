@@ -1,6 +1,6 @@
 <?php
 
-namespace PurpleElastic\Inc;
+namespace Elastic\Inc;
 
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;

@@ -1,15 +1,15 @@
 <?php
 
 /*
-Plugin Name: Purple DS HUB - NoSQL
-Plugin URI:  https://sprylab.com
-Description: NoSQL sync plugin for Purple DS HUB.
-Version:     0.9
-Author:      sprylab technologies
-Author URI:  https://sprylab.com
+Plugin Name: WordPress - Elasticsearch
+Plugin URI:  https://github.com/simonbinder/wordpress-elasticsearch
+Description: Elasticsearch sync plugin for WordPress.
+Version:     1.0
+Author:      Simon Binder
+Author URI:  https://github.com/simonbinder
 License:     GPL V3.
 License URI: http://www.gnu.org/licenses/
-Text Domain: purpledshub-hype
+Text Domain: wordpress-elasticsearch
 Domain Path: /languages
  */
 
@@ -30,7 +30,7 @@ function debug( $var ) {
 	error_log( print_r( $var, true ) );
 }
 
-$init_connection = new \PurpleElastic\Inc\Init_Connection();
+$init_connection = new \Elastic\Inc\Init_Connection();
 
 wp_enqueue_script(
 	'purple-gutenbergid-script',
